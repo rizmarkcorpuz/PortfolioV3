@@ -1,4 +1,5 @@
 import Nav from './components/Nav'
+import Sidebar from './components/Sidebar'
 import Hero from './components/Hero'
 import About from './components/About'
 import Experience from './components/Experience'
@@ -15,6 +16,7 @@ export default function App() {
     <>
       <div className="hero-bg" />
       <Nav />
+      <Sidebar />
       <Hero />
       <About />
       <Experience />
