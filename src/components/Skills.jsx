@@ -45,8 +45,8 @@ function SkillCard({ icon, name }) {
 
 function TechCard({ name, color }) {
   return (
-    <div className="skill-card skill-card--tech" style={{ '--tc': color }}>
-      <div className="skill-card__dot" />
+    <div className="skill-card">
+      <div className="skill-card__dot" style={{ background: color, boxShadow: `0 0 10px ${color}88` }} />
       <p className="skill-card__name">{name}</p>
     </div>
   )

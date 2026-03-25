@@ -33,8 +33,8 @@ export default function About() {
     <section id="about">
       <div className="section-label" data-num="01">About Me</div>
       <h2 className="section-title">
-        <AnimatedText>Hi. I'm Riz Mark,</AnimatedText>
-        <br /><AnimatedText>nice to </AnimatedText><AnimatedText className="accent">meet you.</AnimatedText>
+        <AnimatedText>Building Automation,</AnimatedText>
+        <br /><AnimatedText>One Workflow </AnimatedText><AnimatedText className="accent">at a Time.</AnimatedText>
       </h2>
       <div className="section-divider" />
 
