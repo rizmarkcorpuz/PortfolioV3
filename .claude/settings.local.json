@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node screenshot.mjs http://localhost:3000 brand-guide-v2)",
+      "Bash(node screenshot.mjs http://localhost:3000 brand-guide-v3)",
+      "Bash(gh auth:*)",
+      "Bash(npm --version)",
+      "Bash(where gh:*)",
+      "Bash(winget list:*)",
+      "Bash(git --version)",
+      "Bash(git config:*)",
+      "Bash(echo $GITHUB_TOKEN)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(winget install:*)",
+      "Read(//c/Program Files/GitHub CLI//**)",
+      "Read(//c/Program Files/GitHub CLI/**)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)"
+    ]
+  }
+}
