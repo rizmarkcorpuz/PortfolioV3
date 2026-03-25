@@ -34,7 +34,7 @@ const items = [
   },
   {
     label: 'Resume',
-    href: '/PortfolioV3/assets/Resume.pdf',
+    href: '/PortfolioV3/assets/Corpuz-Riz-Mark-CV.pdf',
     bg: '#565F69',
     external: true,
     download: true,
