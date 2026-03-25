@@ -67,6 +67,28 @@ export const projects = [
   {
     id: 5,
     num: '05',
+    type: 'Open Source',
+    name: 'AI Ticket Triage',
+    description:
+      'Python script that reads unread support emails via Gmail API, classifies them with OpenAI (urgent / billing / technical / general), and creates tagged tickets in Airtable with a confidence score — complete with a --dry-run mode and prompt engineering as a first-class artifact.',
+    tech: ['Python', 'OpenAI', 'Gmail API', 'Airtable', 'REST API'],
+    image: 'https://placehold.co/800x500/0A192F/FFD700?text=AI+Ticket+Triage',
+    github: 'https://github.com/rizmarkcorpuz/ai-ticket-triage',
+  },
+  {
+    id: 6,
+    num: '06',
+    type: 'Open Source',
+    name: 'Google Apps Script × Airtable Sync',
+    description:
+      'Google Apps Script that syncs a Sheets-based project tracker with Airtable via REST API — with conflict detection, field mapping config, and a self-installing daily trigger. No server required.',
+    tech: ['Google Apps Script', 'Airtable', 'Google Sheets', 'REST API'],
+    image: 'https://placehold.co/800x500/0A192F/6FC2B0?text=Apps+Script+%C3%97+Airtable',
+    github: 'https://github.com/rizmarkcorpuz/google-apps-script-airtable-sync',
+  },
+  {
+    id: 7,
+    num: '07',
     type: 'Web App',
     name: 'Ventures ++',
     description:
@@ -77,8 +99,8 @@ export const projects = [
     live: 'https://drive.google.com/file/d/1IDMVwmon7-y8Vrec7W3VhUPgovu5I8bN/view?usp=sharing',
   },
   {
-    id: 6,
-    num: '06',
+    id: 8,
+    num: '08',
     type: 'Web App',
     name: 'Urban Gardener',
     description:
@@ -89,8 +111,8 @@ export const projects = [
     live: 'https://urbangardenercavite.000webhostapp.com',
   },
   {
-    id: 7,
-    num: '07',
+    id: 9,
+    num: '09',
     type: 'Web App',
     name: 'Google Keep Clone',
     description:
@@ -101,8 +123,8 @@ export const projects = [
     live: 'https://rizmarkcorpuz.github.io/google-keep-clone/',
   },
   {
-    id: 8,
-    num: '08',
+    id: 10,
+    num: '10',
     type: 'Portfolio',
     name: 'Personal Website V2',
     description:
@@ -113,8 +135,8 @@ export const projects = [
     live: 'https://rizmarkcorpuz.github.io/PortfolioV2/',
   },
   {
-    id: 9,
-    num: '09',
+    id: 11,
+    num: '11',
     type: 'Portfolio',
     name: 'Personal Website V1',
     description:
