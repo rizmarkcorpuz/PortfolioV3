@@ -4,6 +4,7 @@ import About from './components/About'
 import Experience from './components/Experience'
 import Services from './components/Services'
 import Process from './components/Process'
+import Skills from './components/Skills'
 import Work from './components/Work'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
@@ -19,6 +20,7 @@ export default function App() {
       <Experience />
       <Services />
       <Process />
+      <Skills />
       <Work />
       <Testimonials />
       <Contact />

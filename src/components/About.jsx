@@ -19,8 +19,6 @@ const EmailIcon = () => (
   </svg>
 )
 
-const automationTools = ['N8N','Make','Zapier','HubSpot','Airtable','GoHighLevel','Google Apps Script','Monday','Prismatic']
-const aiTools = ['Claude','OpenAI','Gemini']
 const stats = [
   { num: '50+', label: 'Workflows Automated' },
   { num: '20%', label: 'Lead Conversion Lift' },
@@ -73,18 +71,6 @@ export default function About() {
                 <div className="stat-label">{s.label}</div>
               </div>
             ))}
-          </div>
-          <div className="skills-list">
-            <div className="skills-label">Automation Tools</div>
-            <div className="skill-tags">
-              {automationTools.map(t => <span key={t} className="skill-tag">{t}</span>)}
-            </div>
-          </div>
-          <div className="skills-list" style={{ marginTop: '16px' }}>
-            <div className="skills-label">AI Tools</div>
-            <div className="skill-tags">
-              {aiTools.map(t => <span key={t} className="skill-tag">{t}</span>)}
-            </div>
           </div>
         </div>
       </div>
