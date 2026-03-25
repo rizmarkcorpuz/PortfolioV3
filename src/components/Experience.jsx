@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 import { experiences } from '../data/data'
 
 export default function Experience() {
@@ -8,7 +9,8 @@ export default function Experience() {
     <section id="experience">
       <div className="section-label" data-num="02">Experience</div>
       <h2 className="section-title">
-        Where I've worked<br />and what I've <span className="accent">built</span>.
+        <AnimatedText>Where I've worked</AnimatedText>
+        <br /><AnimatedText>and what I've </AnimatedText><AnimatedText className="accent">built.</AnimatedText>
       </h2>
       <div className="section-divider" />
 

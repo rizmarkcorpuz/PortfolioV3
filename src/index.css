@@ -237,6 +237,29 @@ footer{background:var(--navy);border-top:1px solid rgba(255,215,0,0.07);padding:
 .footer-links a{font-family:var(--mono);font-size:11px;letter-spacing:.1em;color:var(--txt-3);text-decoration:none;transition:color var(--transition);}
 .footer-links a:hover{color:var(--gold);}
 
+/* ── ANIMATED TEXT ── */
+.animated-text{display:inline;}
+.animated-word{display:inline-flex;white-space:nowrap;}
+.animated-space{display:inline-block;width:.28em;}
+.animated-char{
+  display:inline-block;
+  transition:color .2s ease, transform .3s ease;
+  transition-delay:calc(var(--i) * 18ms);
+}
+.animated-text:hover .animated-char{
+  animation:letterBounce .5s ease forwards;
+  animation-delay:calc(var(--i) * 30ms);
+  color:var(--gold);
+}
+
+@keyframes letterBounce{
+  0%  {transform:translateY(0);}
+  30% {transform:translateY(-10px);}
+  50% {transform:translateY(2px);}
+  70% {transform:translateY(-4px);}
+  100%{transform:translateY(0);}
+}
+
 /* ── ANIMATIONS ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
 @keyframes scrollPulse{0%,100%{opacity:1;transform:scaleY(1);}50%{opacity:.3;transform:scaleY(.6);}}

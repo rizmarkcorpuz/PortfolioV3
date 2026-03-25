@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 
 const GithubIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
@@ -34,7 +35,8 @@ export default function About() {
     <section id="about">
       <div className="section-label" data-num="01">About Me</div>
       <h2 className="section-title">
-        Hi. I'm Riz Mark,<br />nice to <span className="accent">meet you</span>.
+        <AnimatedText>Hi. I'm Riz Mark,</AnimatedText>
+        <br /><AnimatedText>nice to </AnimatedText><AnimatedText className="accent">meet you.</AnimatedText>
       </h2>
       <div className="section-divider" />
 

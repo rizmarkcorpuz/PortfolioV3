@@ -1,3 +1,5 @@
+import AnimatedText from './AnimatedText'
+
 export default function Hero() {
   return (
     <div style={{ maxWidth: 'var(--max)', margin: '0 auto', position: 'relative' }}>
@@ -5,10 +7,14 @@ export default function Hero() {
         <div className="hero-content">
           <div className="hero-eyebrow">Hi, my name is</div>
           <h1 className="hero-name">
-            Riz Mark<br /><span className="accent">Corpuz.</span>
+            <AnimatedText>Riz Mark</AnimatedText>
+            <br />
+            <AnimatedText className="accent">Corpuz.</AnimatedText>
           </h1>
           <h2 className="hero-title">
-            I'm an AI Automation<br />Specialist.
+            <AnimatedText>I'm an AI Automation</AnimatedText>
+            <br />
+            <AnimatedText>Specialist.</AnimatedText>
           </h2>
           <p className="hero-desc">
             I'm focused on creating{' '}

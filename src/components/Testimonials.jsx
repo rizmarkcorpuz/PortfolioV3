@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 import { testimonials } from '../data/data'
 
 function TestimonialCard({ t }) {
@@ -28,7 +29,8 @@ export default function Testimonials() {
       <div className="services-inner">
         <div className="section-label reveal" data-num="06" ref={labelRef}>Testimonials</div>
         <h2 className="section-title reveal" ref={titleRef}>
-          What clients<br /><span className="accent">say</span>.
+          <AnimatedText>What clients</AnimatedText>
+          <br /><AnimatedText className="accent">say.</AnimatedText>
         </h2>
         <div className="section-divider reveal" ref={divRef} />
         <div className="testimonials-grid">

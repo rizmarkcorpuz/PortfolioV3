@@ -108,7 +108,7 @@ export const projects = [
     description:
       'The second iteration of my personal portfolio, built with React and Tailwind CSS. Featured animated letter reveals, a full project showcase, skills grid, experience timeline, and testimonials.',
     tech: ['React', 'Tailwind CSS', 'JavaScript'],
-    image: '/PortfolioV3/assets/projects/portfolio_v1.png',
+    image: '/PortfolioV3/assets/projects/portfolio_v2.png',
     github: 'https://github.com/rizmarkcorpuz/PortfolioV2',
     live: 'https://rizmarkcorpuz.github.io/PortfolioV2/',
   },

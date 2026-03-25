@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 
 const steps = [
   { num: '01 — Discover', title: 'Understand Your Workflow', desc: 'Deep-dive into your current processes, pain points, and goals. Map every step, tool, and handoff.' },
@@ -28,7 +29,8 @@ export default function Process() {
       <div className="process-inner">
         <div className="section-label reveal" data-num="04" ref={labelRef}>How It Works</div>
         <h2 className="section-title reveal" ref={titleRef}>
-          From messy process<br />to <span className="accent">clean automation</span>.
+          <AnimatedText>From messy process</AnimatedText>
+          <br /><AnimatedText>to </AnimatedText><AnimatedText className="accent">clean automation.</AnimatedText>
         </h2>
         <div className="section-divider reveal" ref={divRef} />
         <div className="process-steps">

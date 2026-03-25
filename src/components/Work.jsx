@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 import { projects } from '../data/data'
 
 const GithubIcon = () => (
@@ -61,7 +62,8 @@ export default function Work() {
     <section id="work">
       <div className="section-label reveal" data-num="05" ref={labelRef}>Selected Work</div>
       <h2 className="section-title reveal" ref={titleRef}>
-        Automation that<br /><span className="accent">ships results</span>.
+        <AnimatedText>Automation that</AnimatedText>
+        <br /><AnimatedText className="accent">ships results.</AnimatedText>
       </h2>
       <div className="section-divider reveal" ref={divRef} />
       <div className="projects-grid">

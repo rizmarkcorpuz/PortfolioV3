@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 
 const services = [
   {
@@ -87,7 +88,8 @@ export default function Services() {
       <div className="services-inner">
         <div className="section-label reveal" data-num="03" ref={labelRef}>What I Do</div>
         <h2 className="section-title reveal" ref={titleRef}>
-          Services built for<br />teams who <span className="accent">move fast</span>.
+          <AnimatedText>Services built for</AnimatedText>
+          <br /><AnimatedText>teams who </AnimatedText><AnimatedText className="accent">move fast.</AnimatedText>
         </h2>
         <div className="section-divider reveal" ref={divRef} />
         <div className="services-grid">

@@ -1,4 +1,5 @@
 import useReveal from '../hooks/useReveal'
+import AnimatedText from './AnimatedText'
 
 const EmailIcon = () => (
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -39,7 +40,8 @@ export default function Contact() {
           <div className="contact-text">
             <div className="section-label reveal" data-num="07" ref={labelRef}>Contact</div>
             <h2 className="section-title reveal" ref={titleRef}>
-              Have a workflow<br />that needs <span className="accent">fixing</span>?
+              <AnimatedText>Have a workflow</AnimatedText>
+              <br /><AnimatedText>that needs </AnimatedText><AnimatedText className="accent">fixing?</AnimatedText>
             </h2>
             <div className="section-divider reveal" ref={divRef} />
             <p className="reveal" ref={textRef}>
