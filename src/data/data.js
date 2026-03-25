@@ -67,6 +67,17 @@ export const projects = [
   {
     id: 5,
     num: '05',
+    type: 'AI Agent',
+    name: 'AI Lead Researcher Agent',
+    description:
+      'Autonomous AI agent built on Claude\'s tool-use API that researches inbound leads, scores them against ICP criteria, drafts personalised outreach emails, and outputs a full qualification report — all in a self-directed agentic loop.',
+    tech: ['Python', 'Claude API', 'Anthropic SDK', 'Tool Use', 'Agentic AI'],
+    image: 'https://placehold.co/800x500/0A192F/FFD700?text=AI+Lead+Researcher+Agent',
+    github: 'https://github.com/rizmarkcorpuz/ai-lead-researcher',
+  },
+  {
+    id: 6,
+    num: '06',
     type: 'Open Source',
     name: 'AI Ticket Triage',
     description:
