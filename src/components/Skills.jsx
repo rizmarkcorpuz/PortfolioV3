@@ -22,14 +22,14 @@ const aiTools = [
 ]
 
 const techStack = [
-  { name: 'Python',      color: '#3776AB' },
-  { name: 'JavaScript',  color: '#F7DF1E' },
-  { name: 'React',       color: '#61DAFB' },
-  { name: 'Node.js',     color: '#339933' },
-  { name: 'HTML',        color: '#E34F26' },
-  { name: 'CSS',         color: '#1572B6' },
-  { name: 'Tailwind',    color: '#06B6D4' },
-  { name: 'GitHub',      color: '#ffffff' },
+  { name: 'HTML',        icon: `${base}html.png` },
+  { name: 'CSS',         icon: `${base}css.png` },
+  { name: 'JavaScript',  icon: `${base}javascript.png` },
+  { name: 'Python',      icon: `${base}python.svg` },
+  { name: 'React',       icon: `${base}react.png` },
+  { name: 'GitHub',      icon: `${base}github.png` },
+  { name: 'Node.js',     icon: `${base}node.png` },
+  { name: 'Tailwind',    icon: `${base}tailwind.png` },
 ]
 
 function SkillCard({ icon, name }) {
@@ -43,14 +43,6 @@ function SkillCard({ icon, name }) {
   )
 }
 
-function TechCard({ name, color }) {
-  return (
-    <div className="skill-card">
-      <div className="skill-card__dot" style={{ background: color, boxShadow: `0 0 10px ${color}88` }} />
-      <p className="skill-card__name">{name}</p>
-    </div>
-  )
-}
 
 export default function Skills() {
   const titleRef  = useReveal()
@@ -87,7 +79,7 @@ export default function Skills() {
       <div className="skills-group reveal" ref={techRef}>
         <p className="skills-group__label">Tech Stack</p>
         <div className="skill-grid skill-grid--tech">
-          {techStack.map(t => <TechCard key={t.name} {...t} />)}
+          {techStack.map(t => <SkillCard key={t.name} {...t} />)}
         </div>
       </div>
     </section>
