@@ -89,6 +89,17 @@ export const projects = [
   {
     id: 7,
     num: '07',
+    type: 'Open Source',
+    name: 'N8N Lead Enrichment Pipeline',
+    description:
+      'N8N workflow that enriches inbound leads via Hunter.io, scores them automatically, then routes hot leads to HubSpot and cold leads to GoHighLevel — with Slack alerts for high-priority contacts. Includes importable workflow JSON files.',
+    tech: ['N8N', 'HubSpot', 'GoHighLevel', 'Slack', 'REST API'],
+    image: 'https://placehold.co/800x500/0A192F/FFD700?text=N8N+Lead+Enrichment',
+    github: 'https://github.com/rizmarkcorpuz/n8n-lead-enrichment-pipeline',
+  },
+  {
+    id: 8,
+    num: '08',
     type: 'Web App',
     name: 'Ventures ++',
     description:
@@ -99,8 +110,8 @@ export const projects = [
     live: 'https://drive.google.com/file/d/1IDMVwmon7-y8Vrec7W3VhUPgovu5I8bN/view?usp=sharing',
   },
   {
-    id: 8,
-    num: '08',
+    id: 9,
+    num: '09',
     type: 'Web App',
     name: 'Urban Gardener',
     description:
@@ -111,8 +122,8 @@ export const projects = [
     live: 'https://urbangardenercavite.000webhostapp.com',
   },
   {
-    id: 9,
-    num: '09',
+    id: 10,
+    num: '10',
     type: 'Web App',
     name: 'Google Keep Clone',
     description:
@@ -123,8 +134,8 @@ export const projects = [
     live: 'https://rizmarkcorpuz.github.io/google-keep-clone/',
   },
   {
-    id: 10,
-    num: '10',
+    id: 11,
+    num: '11',
     type: 'Portfolio',
     name: 'Personal Website V2',
     description:
@@ -135,8 +146,8 @@ export const projects = [
     live: 'https://rizmarkcorpuz.github.io/PortfolioV2/',
   },
   {
-    id: 11,
-    num: '11',
+    id: 12,
+    num: '12',
     type: 'Portfolio',
     name: 'Personal Website V1',
     description:
