@@ -78,7 +78,7 @@ export default function Skills() {
       {/* AI Tools */}
       <div className="skills-group reveal" ref={aiRef}>
         <p className="skills-group__label">AI Tools</p>
-        <div className="skill-grid skill-grid--sm">
+        <div className="skill-grid skill-grid--ai">
           {aiTools.map(t => <SkillCard key={t.name} {...t} />)}
         </div>
       </div>
@@ -86,7 +86,7 @@ export default function Skills() {
       {/* Tech Stack */}
       <div className="skills-group reveal" ref={techRef}>
         <p className="skills-group__label">Tech Stack</p>
-        <div className="skill-grid">
+        <div className="skill-grid skill-grid--tech">
           {techStack.map(t => <TechCard key={t.name} {...t} />)}
         </div>
       </div>
